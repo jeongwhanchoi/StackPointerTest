@@ -1,0 +1,17 @@
+		LDR		R6, =0x3456
+		LDR		R7, =0x2345
+		LDR		R8, =0x1234
+		LDR		R3, =0x3333
+		LDR		R2, =0x2222
+		LDR		R1, =0x1111
+		LDR		R0, =0x0000
+		LDR		SP, =0xFF8
+		STMIB	SP! ,{R8}
+		STMIB	SP! ,{R7}
+		STMIB	SP! ,{R6}			
+		
+		LDMDA	SP! ,{R3}			; POP R3
+		STMIB	SP!, {R0}			; PUSH R0
+		STMIB	SP!, {R2}			; PUSH R2
+		STMIB	SP!, {R1}			; PUSH R1
+		LDMDA	SP! ,{R0}			; POP R0
