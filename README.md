@@ -8,4 +8,4 @@
 
 ## 참조
 
-[임베디드 레시피 : R13, R14에게 반했다?]http://recipes.egloos.com/5631403
+[임베디드 레시피 : R13, R14에게 반했다?](http://recipes.egloos.com/5631403)
